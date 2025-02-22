@@ -12,4 +12,5 @@ controls:
 - r - random
 
 build:
-  should build everywhere, as long as you have raylib installed, but i don't really know
+-  should build everywhere, as long as it has cmake and raylib
+-  or you can install raylib library using -DDOWNLOAD_RAYLIB=ON parameter
